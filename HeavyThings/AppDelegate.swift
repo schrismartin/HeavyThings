@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Heavy Things
+//  HeavyThings
 //
 //  Created by Chris Martin on 7/28/19.
 //  Copyright © 2019 Chris Martin. All rights reserved.
@@ -11,8 +11,6 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -42,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Heavy_Things")
+        let container = NSPersistentContainer(name: "HeavyThings")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

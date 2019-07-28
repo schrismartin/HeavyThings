@@ -1,15 +1,15 @@
 //
 //  Heavy_ThingsTests.swift
-//  Heavy ThingsTests
+//  HeavyThingsTests
 //
 //  Created by Chris Martin on 7/28/19.
 //  Copyright © 2019 Chris Martin. All rights reserved.
 //
 
 import XCTest
-@testable import Heavy_Things
+@testable import HeavyThings
 
-class Heavy_ThingsTests: XCTestCase {
+class HeavyThingsTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B41B410822EDF61500454B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B410722EDF61500454B49 /* AppDelegate.swift */; };
 		B41B410A22EDF61500454B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B410922EDF61500454B49 /* SceneDelegate.swift */; };
-		B41B410D22EDF61500454B49 /* Heavy_Things.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B41B410B22EDF61500454B49 /* Heavy_Things.xcdatamodeld */; };
-		B41B410F22EDF61500454B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B410E22EDF61500454B49 /* ContentView.swift */; };
+		B41B410D22EDF61500454B49 /* HeavyThings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B41B410B22EDF61500454B49 /* HeavyThings.xcdatamodeld */; };
+		B41B410F22EDF61500454B49 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B410E22EDF61500454B49 /* DashboardView.swift */; };
 		B41B411122EDF61600454B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41B411022EDF61600454B49 /* Assets.xcassets */; };
 		B41B411422EDF61600454B49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41B411322EDF61600454B49 /* Preview Assets.xcassets */; };
 		B41B411722EDF61600454B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41B411522EDF61600454B49 /* LaunchScreen.storyboard */; };
-		B41B412222EDF61600454B49 /* Heavy_ThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B412122EDF61600454B49 /* Heavy_ThingsTests.swift */; };
+		B41B412222EDF61600454B49 /* HeavyThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B412122EDF61600454B49 /* HeavyThingsTests.swift */; };
+		B43EB54522EE1DE900969F85 /* CMToolkit in Frameworks */ = {isa = PBXBuildFile; productRef = B43EB54422EE1DE900969F85 /* CMToolkit */; };
+		B43EB54722EE379300969F85 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB54622EE379300969F85 /* Icon.swift */; };
+		B43EB54922EE37C600969F85 /* ExerciseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB54822EE37C600969F85 /* ExerciseType.swift */; };
+		B43EB54B22EE37E300969F85 /* Sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB54A22EE37E300969F85 /* Sets.swift */; };
+		B43EB54D22EE381000969F85 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB54C22EE381000969F85 /* Exercise.swift */; };
+		B43EB54F22EE381800969F85 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB54E22EE381800969F85 /* Workout.swift */; };
+		B43EB55122EE383D00969F85 /* DateFormatter+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB55022EE383D00969F85 /* DateFormatter+Defaults.swift */; };
+		B43EB55322EE385B00969F85 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB55222EE385B00969F85 /* DayView.swift */; };
+		B43EB55522EE387200969F85 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB55422EE387200969F85 /* ExerciseView.swift */; };
+		B43EB55722EE388900969F85 /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB55622EE388900969F85 /* StatView.swift */; };
+		B43EB55922EE389D00969F85 /* Color+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB55822EE389D00969F85 /* Color+Defaults.swift */; };
+		B43EB55B22EE38AF00969F85 /* Date+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EB55A22EE38AF00969F85 /* Date+Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,23 +35,34 @@
 			containerPortal = B41B40FC22EDF61500454B49 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B41B410322EDF61500454B49;
-			remoteInfo = "Heavy Things";
+			remoteInfo = HeavyThings;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B41B410422EDF61500454B49 /* Heavy Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heavy Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41B410422EDF61500454B49 /* HeavyThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeavyThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41B410722EDF61500454B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B41B410922EDF61500454B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B41B410C22EDF61500454B49 /* Heavy_Things.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Heavy_Things.xcdatamodel; sourceTree = "<group>"; };
-		B41B410E22EDF61500454B49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B41B410E22EDF61500454B49 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		B41B411022EDF61600454B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41B411322EDF61600454B49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B41B411622EDF61600454B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B41B411822EDF61600454B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B41B411D22EDF61600454B49 /* Heavy ThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heavy ThingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B41B412122EDF61600454B49 /* Heavy_ThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heavy_ThingsTests.swift; sourceTree = "<group>"; };
+		B41B411D22EDF61600454B49 /* HeavyThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeavyThingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41B412122EDF61600454B49 /* HeavyThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavyThingsTests.swift; sourceTree = "<group>"; };
 		B41B412322EDF61600454B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43EB54622EE379300969F85 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		B43EB54822EE37C600969F85 /* ExerciseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseType.swift; sourceTree = "<group>"; };
+		B43EB54A22EE37E300969F85 /* Sets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sets.swift; sourceTree = "<group>"; };
+		B43EB54C22EE381000969F85 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		B43EB54E22EE381800969F85 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		B43EB55022EE383D00969F85 /* DateFormatter+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Defaults.swift"; sourceTree = "<group>"; };
+		B43EB55222EE385B00969F85 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		B43EB55422EE387200969F85 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		B43EB55622EE388900969F85 /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		B43EB55822EE389D00969F85 /* Color+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Defaults.swift"; sourceTree = "<group>"; };
+		B43EB55A22EE38AF00969F85 /* Date+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Defaults.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43EB54522EE1DE900969F85 /* CMToolkit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +87,8 @@
 		B41B40FB22EDF61500454B49 = {
 			isa = PBXGroup;
 			children = (
-				B41B410622EDF61500454B49 /* Heavy Things */,
-				B41B412022EDF61600454B49 /* Heavy ThingsTests */,
+				B41B410622EDF61500454B49 /* HeavyThings */,
+				B41B412022EDF61600454B49 /* HeavyThingsTests */,
 				B41B410522EDF61500454B49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,25 +96,28 @@
 		B41B410522EDF61500454B49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B41B410422EDF61500454B49 /* Heavy Things.app */,
-				B41B411D22EDF61600454B49 /* Heavy ThingsTests.xctest */,
+				B41B410422EDF61500454B49 /* HeavyThings.app */,
+				B41B411D22EDF61600454B49 /* HeavyThingsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B41B410622EDF61500454B49 /* Heavy Things */ = {
+		B41B410622EDF61500454B49 /* HeavyThings */ = {
 			isa = PBXGroup;
 			children = (
 				B41B410722EDF61500454B49 /* AppDelegate.swift */,
 				B41B410922EDF61500454B49 /* SceneDelegate.swift */,
-				B41B410E22EDF61500454B49 /* ContentView.swift */,
+				B4BF692622EE39A60026CEB5 /* Screens */,
+				B4BF692522EE39A00026CEB5 /* Extensions */,
+				B4BF692822EE39C60026CEB5 /* Views */,
+				B4BF692922EE39D20026CEB5 /* Models */,
 				B41B411022EDF61600454B49 /* Assets.xcassets */,
 				B41B411522EDF61600454B49 /* LaunchScreen.storyboard */,
 				B41B411822EDF61600454B49 /* Info.plist */,
-				B41B410B22EDF61500454B49 /* Heavy_Things.xcdatamodeld */,
+				B41B410B22EDF61500454B49 /* HeavyThings.xcdatamodeld */,
 				B41B411222EDF61600454B49 /* Preview Content */,
 			);
-			path = "Heavy Things";
+			path = HeavyThings;
 			sourceTree = "<group>";
 		};
 		B41B411222EDF61600454B49 /* Preview Content */ = {
@@ -101,21 +128,61 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B41B412022EDF61600454B49 /* Heavy ThingsTests */ = {
+		B41B412022EDF61600454B49 /* HeavyThingsTests */ = {
 			isa = PBXGroup;
 			children = (
-				B41B412122EDF61600454B49 /* Heavy_ThingsTests.swift */,
+				B41B412122EDF61600454B49 /* HeavyThingsTests.swift */,
 				B41B412322EDF61600454B49 /* Info.plist */,
 			);
-			path = "Heavy ThingsTests";
+			path = HeavyThingsTests;
+			sourceTree = "<group>";
+		};
+		B4BF692522EE39A00026CEB5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B43EB55022EE383D00969F85 /* DateFormatter+Defaults.swift */,
+				B43EB55822EE389D00969F85 /* Color+Defaults.swift */,
+				B43EB55A22EE38AF00969F85 /* Date+Defaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4BF692622EE39A60026CEB5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B41B410E22EDF61500454B49 /* DashboardView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B4BF692822EE39C60026CEB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B43EB55222EE385B00969F85 /* DayView.swift */,
+				B43EB55422EE387200969F85 /* ExerciseView.swift */,
+				B43EB55622EE388900969F85 /* StatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4BF692922EE39D20026CEB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B43EB54C22EE381000969F85 /* Exercise.swift */,
+				B43EB54E22EE381800969F85 /* Workout.swift */,
+				B43EB54A22EE37E300969F85 /* Sets.swift */,
+				B43EB54622EE379300969F85 /* Icon.swift */,
+				B43EB54822EE37C600969F85 /* ExerciseType.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B41B410322EDF61500454B49 /* Heavy Things */ = {
+		B41B410322EDF61500454B49 /* HeavyThings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B41B412622EDF61600454B49 /* Build configuration list for PBXNativeTarget "Heavy Things" */;
+			buildConfigurationList = B41B412622EDF61600454B49 /* Build configuration list for PBXNativeTarget "HeavyThings" */;
 			buildPhases = (
 				B41B410022EDF61500454B49 /* Sources */,
 				B41B410122EDF61500454B49 /* Frameworks */,
@@ -125,14 +192,17 @@
 			);
 			dependencies = (
 			);
-			name = "Heavy Things";
-			productName = "Heavy Things";
-			productReference = B41B410422EDF61500454B49 /* Heavy Things.app */;
+			name = HeavyThings;
+			packageProductDependencies = (
+				B43EB54422EE1DE900969F85 /* CMToolkit */,
+			);
+			productName = HeavyThings;
+			productReference = B41B410422EDF61500454B49 /* HeavyThings.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B41B411C22EDF61600454B49 /* Heavy ThingsTests */ = {
+		B41B411C22EDF61600454B49 /* HeavyThingsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B41B412922EDF61600454B49 /* Build configuration list for PBXNativeTarget "Heavy ThingsTests" */;
+			buildConfigurationList = B41B412922EDF61600454B49 /* Build configuration list for PBXNativeTarget "HeavyThingsTests" */;
 			buildPhases = (
 				B41B411922EDF61600454B49 /* Sources */,
 				B41B411A22EDF61600454B49 /* Frameworks */,
@@ -143,9 +213,9 @@
 			dependencies = (
 				B41B411F22EDF61600454B49 /* PBXTargetDependency */,
 			);
-			name = "Heavy ThingsTests";
-			productName = "Heavy ThingsTests";
-			productReference = B41B411D22EDF61600454B49 /* Heavy ThingsTests.xctest */;
+			name = HeavyThingsTests;
+			productName = HeavyThingsTests;
+			productReference = B41B411D22EDF61600454B49 /* HeavyThingsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B41B40FF22EDF61500454B49 /* Build configuration list for PBXProject "Heavy Things" */;
+			buildConfigurationList = B41B40FF22EDF61500454B49 /* Build configuration list for PBXProject "HeavyThings" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -176,12 +246,15 @@
 				Base,
 			);
 			mainGroup = B41B40FB22EDF61500454B49;
+			packageReferences = (
+				B43EB54322EE1DE900969F85 /* XCRemoteSwiftPackageReference "CMToolkit" */,
+			);
 			productRefGroup = B41B410522EDF61500454B49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B41B410322EDF61500454B49 /* Heavy Things */,
-				B41B411C22EDF61600454B49 /* Heavy ThingsTests */,
+				B41B410322EDF61500454B49 /* HeavyThings */,
+				B41B411C22EDF61600454B49 /* HeavyThingsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,10 +284,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41B410D22EDF61500454B49 /* Heavy_Things.xcdatamodeld in Sources */,
+				B43EB55522EE387200969F85 /* ExerciseView.swift in Sources */,
+				B43EB55122EE383D00969F85 /* DateFormatter+Defaults.swift in Sources */,
+				B43EB55B22EE38AF00969F85 /* Date+Defaults.swift in Sources */,
+				B43EB55322EE385B00969F85 /* DayView.swift in Sources */,
+				B43EB55922EE389D00969F85 /* Color+Defaults.swift in Sources */,
+				B41B410D22EDF61500454B49 /* HeavyThings.xcdatamodeld in Sources */,
+				B43EB54D22EE381000969F85 /* Exercise.swift in Sources */,
+				B43EB55722EE388900969F85 /* StatView.swift in Sources */,
 				B41B410822EDF61500454B49 /* AppDelegate.swift in Sources */,
-				B41B410F22EDF61500454B49 /* ContentView.swift in Sources */,
+				B41B410F22EDF61500454B49 /* DashboardView.swift in Sources */,
+				B43EB54722EE379300969F85 /* Icon.swift in Sources */,
+				B43EB54F22EE381800969F85 /* Workout.swift in Sources */,
 				B41B410A22EDF61500454B49 /* SceneDelegate.swift in Sources */,
+				B43EB54B22EE37E300969F85 /* Sets.swift in Sources */,
+				B43EB54922EE37C600969F85 /* ExerciseType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41B412222EDF61600454B49 /* Heavy_ThingsTests.swift in Sources */,
+				B41B412222EDF61600454B49 /* HeavyThingsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +315,7 @@
 /* Begin PBXTargetDependency section */
 		B41B411F22EDF61600454B49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B41B410322EDF61500454B49 /* Heavy Things */;
+			target = B41B410322EDF61500454B49 /* HeavyThings */;
 			targetProxy = B41B411E22EDF61600454B49 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -367,10 +451,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Heavy Things\"/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "\"HeavyThings\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = 4TD75KA4GE;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Heavy Things/Info.plist";
+				INFOPLIST_FILE = HeavyThings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,10 +471,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Heavy Things\"/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "\"HeavyThings\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = 4TD75KA4GE;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Heavy Things/Info.plist";
+				INFOPLIST_FILE = HeavyThings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,7 +493,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4TD75KA4GE;
-				INFOPLIST_FILE = "Heavy ThingsTests/Info.plist";
+				INFOPLIST_FILE = HeavyThingsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,7 +503,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heavy Things.app/Heavy Things";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeavyThings.app/HeavyThings";
 			};
 			name = Debug;
 		};
@@ -430,7 +514,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4TD75KA4GE;
-				INFOPLIST_FILE = "Heavy ThingsTests/Info.plist";
+				INFOPLIST_FILE = HeavyThingsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,14 +524,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heavy Things.app/Heavy Things";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeavyThings.app/HeavyThings";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B41B40FF22EDF61500454B49 /* Build configuration list for PBXProject "Heavy Things" */ = {
+		B41B40FF22EDF61500454B49 /* Build configuration list for PBXProject "HeavyThings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B41B412422EDF61600454B49 /* Debug */,
@@ -456,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B41B412622EDF61600454B49 /* Build configuration list for PBXNativeTarget "Heavy Things" */ = {
+		B41B412622EDF61600454B49 /* Build configuration list for PBXNativeTarget "HeavyThings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B41B412722EDF61600454B49 /* Debug */,
@@ -465,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B41B412922EDF61600454B49 /* Build configuration list for PBXNativeTarget "Heavy ThingsTests" */ = {
+		B41B412922EDF61600454B49 /* Build configuration list for PBXNativeTarget "HeavyThingsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B41B412A22EDF61600454B49 /* Debug */,
@@ -476,14 +560,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		B43EB54322EE1DE900969F85 /* XCRemoteSwiftPackageReference "CMToolkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/schrismartin/CMToolkit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B43EB54422EE1DE900969F85 /* CMToolkit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B43EB54322EE1DE900969F85 /* XCRemoteSwiftPackageReference "CMToolkit" */;
+			productName = CMToolkit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		B41B410B22EDF61500454B49 /* Heavy_Things.xcdatamodeld */ = {
+		B41B410B22EDF61500454B49 /* HeavyThings.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				B41B410C22EDF61500454B49 /* Heavy_Things.xcdatamodel */,
 			);
 			currentVersion = B41B410C22EDF61500454B49 /* Heavy_Things.xcdatamodel */;
-			path = Heavy_Things.xcdatamodeld;
+			path = HeavyThings.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

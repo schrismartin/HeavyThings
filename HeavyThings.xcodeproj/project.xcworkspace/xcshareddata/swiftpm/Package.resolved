@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CMToolkit",
+        "repositoryURL": "https://github.com/schrismartin/CMToolkit.git",
+        "state": {
+          "branch": "master",
+          "revision": "4de77ab218108c722079a8a353b304637cd798db",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
